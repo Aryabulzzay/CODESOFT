@@ -1,0 +1,89 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #ececed;
+  }
+  
+  .calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 5px solid #040111;
+    border-radius: 5px;
+    background-color: #807f86;
+  }
+  
+  input[type="text"] {
+    width: 273px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #05010b;
+    border-radius: 1px;
+    font-size: 18px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button.operator {
+    background-color: #ff8000;
+    color: #2a0707;
+  }
+  
+  button.number {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  button.clear, button.equals {
+    background-color: #ed2c2c;
+    color: #fff;
+  }
+  
+  button.decimal {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  button.clear-last {
+    background-color: #fc0101;
+    color: #191717;
+  }
+  
+  button.brackets {
+    background-color: #00d34efc;
+    color: #ffffff;
+  }
+
+  
